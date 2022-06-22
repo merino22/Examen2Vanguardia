@@ -1,12 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1703.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolareEnergySystem.Api", "SolareEnergySystem.Api\SolareEnergySystem.Api.csproj", "{2522D953-165A-4BC5-8499-4DC84A979B5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarEnergySystem.Infrastructure", "SolarEnergySystem.Infrastructure\SolarEnergySystem.Infrastructure.csproj", "{72C43573-DD88-4EC1-A4CD-9A3FE0EA04BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarEnergySystem.Core", "SolarEnergySystem.Core\SolarEnergySystem.Core.csproj", "{C2F8AEA7-4471-4DF7-8920-EFD23A914781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarEnergySystem.Tests", "SolarEnergySystem.Tests\SolarEnergySystem.Tests.csproj", "{9CF1EDFA-56F8-42BA-9CFE-2013A61884BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2522D953-165A-4BC5-8499-4DC84A979B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2522D953-165A-4BC5-8499-4DC84A979B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2522D953-165A-4BC5-8499-4DC84A979B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2522D953-165A-4BC5-8499-4DC84A979B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C43573-DD88-4EC1-A4CD-9A3FE0EA04BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C43573-DD88-4EC1-A4CD-9A3FE0EA04BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C43573-DD88-4EC1-A4CD-9A3FE0EA04BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C43573-DD88-4EC1-A4CD-9A3FE0EA04BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F8AEA7-4471-4DF7-8920-EFD23A914781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F8AEA7-4471-4DF7-8920-EFD23A914781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F8AEA7-4471-4DF7-8920-EFD23A914781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F8AEA7-4471-4DF7-8920-EFD23A914781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF1EDFA-56F8-42BA-9CFE-2013A61884BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF1EDFA-56F8-42BA-9CFE-2013A61884BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF1EDFA-56F8-42BA-9CFE-2013A61884BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF1EDFA-56F8-42BA-9CFE-2013A61884BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
